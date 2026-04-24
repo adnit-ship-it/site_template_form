@@ -24,8 +24,9 @@
     }
   },
   "strings": {
-    "siteTitle": "The Hormone Experts - Discover a better you with GLP-1s.",
-    "pageDescription": "The Hormone Experts is made personalized for you and your weight loss journey."
+    "siteTitle": "The Hormone Experts - Discover a better you with GLP-1s.test",
+    "pageDescription": "The Hormone Experts is made personalized for you and your weight loss journey.",
+    "pageTitle": "The Hormone Experts - Discover a better you with GLP-1s.test"
   },
   "announcement": {
     "enabled": false,
