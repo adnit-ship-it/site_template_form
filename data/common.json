@@ -29,10 +29,15 @@
     "pageTitle": "The Hormone Experts - Discover a better you with GLP-1s.test"
   },
   "announcement": {
-    "enabled": false,
-    "text": "Limited time offer: 20% off your first consultation!",
-    "link": "/",
-    "backgroundColor": "#000000",
-    "textColor": "#ffffff"
+    "enabled": true,
+    "text": "TESTLimited time offer: 20% off your first consultation!TEST",
+    "link": "https://www.youtube.com/watch?v=7d37F0IbZz8&list=TLPQMjQwNDIwMjYLkILpssQKhg&index=1",
+    "backgroundColor": "accentColor1",
+    "textColor": "accentColor2",
+    "heights": {
+      "mobile": "60px",
+      "tablet": "70px",
+      "desktop": "80px"
+    }
   }
 }
