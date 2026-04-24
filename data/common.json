@@ -9,9 +9,18 @@
       "backgroundColor2": "#F6F6F6"
     },
     "fontStacks": {
-      "headingFont": ["Times New Roman", "sans-serif"],
-      "bodyFont": ["Inter", "sans-serif"],
-      "headingAlt": ["Times New Roman Italic", "sans-serif"]
+      "headingFont": [
+        "Times New Roman",
+        "sans-serif"
+      ],
+      "bodyFont": [
+        "Inter",
+        "sans-serif"
+      ],
+      "headingAlt": [
+        "Times New Roman Italic",
+        "sans-serif"
+      ]
     }
   },
   "strings": {
