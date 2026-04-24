@@ -1,0 +1,790 @@
+{
+  "categories": [
+    {
+      "id": "weight-loss",
+      "name": "Weight Loss",
+      "images": {
+        "mainImg": "/assets/images/products/weight-loss/cover.png"
+      },
+      "availability": "in_stock",
+      "products": [
+        {
+          "id": "compounded-semaglutide",
+          "name": "Semaglutide Injection",
+          "selectionName": "Semaglutide Injection",
+          "quizId": "weight-loss",
+          "intro": "Proven, effective, more affordable.",
+          "type": "injections",
+          "images": {
+            "mainImg": "/assets/images/products/semaglutide-injection.png"
+          },
+          "tag": "Most Affordable",
+          "description": "THE GLP-1 Injections are customized GLP-1 therapy designed for individuals who benefit from a formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "72f41409-d6d0-4367-b34a-997e90022daa",
+              "price": 269,
+              "refillPrice": 299
+            },
+            {
+              "duration": "threeMonthly",
+              "id": "f3d17b02-4956-4739-8967-a0a5b4f51d53",
+              "price": 0
+            },
+            {
+              "duration": "sixMonthly",
+              "id": "3c890ef9-bc38-4368-9309-0ba02b19406b",
+              "price": 0
+            },
+            {
+              "duration": "yearly",
+              "id": "25bf11ff-7d47-49cd-bc27-a93bf06a8d0d",
+              "price": 0
+            }
+          ],
+          "availability": "in_stock"
+        },
+        {
+          "id": "compounded-tirzepatide",
+          "name": "Compounded Tirzepatide",
+          "selectionName": "Compounded Tirzepatide",
+          "quizId": "weight-loss",
+          "intro": "Faster results. Dual-action support.",
+          "type": "injections",
+          "images": {
+            "mainImg": "/assets/images/products/tirzepatide-injection.png"
+          },
+          "tag": "Fastest Results",
+          "description": "Tirzepatide is a dual-action GLP-1 and GIP therapy designed for individuals who benefit from a more advanced formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "c08d0c7e-9cd8-4130-9742-338515627ad9",
+              "price": 359,
+              "refillPrice": 399
+            },
+            {
+              "duration": "threeMonthly",
+              "id": "78ebfde4-07b7-4201-ab33-42d3cc43d5e4",
+              "price": 0
+            },
+            {
+              "duration": "sixMonthly",
+              "id": "dde5cb80-60ac-4a77-953a-b414446bd06e",
+              "price": 0
+            },
+            {
+              "duration": "yearly",
+              "id": "0bf1f53a-a3ea-4cf9-bc8a-8d6e1ab276bf",
+              "price": 0
+            }
+          ],
+          "availability": "in_stock"
+        },
+        {
+          "id": "compounded-semaglutide-oral",
+          "name": "Compounded Semaglutide Oral Capsules",
+          "quizId": "weight-loss",
+          "selectionName": "Compounded Semaglutide Oral Capsules",
+          "intro": "Proven, effective, more affordable.",
+          "type": "tablets",
+          "images": {
+            "mainImg": "/assets/images/products/semaglutide-odt.png"
+          },
+          "tag": "Most Affordable",
+          "description": "THE GLP-1 Injections are customized GLP-1 therapy designed for individuals who benefit from a formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "111fbbd4-c22f-41d1-b4c3-e1bb72aa5ac9",
+              "price": 299,
+              "refillPrice": 349
+            },
+            {
+              "duration": "threeMonthly",
+              "id": "cb209c7d-178c-4046-a7a4-528f4378b2f1",
+              "price": 0
+            },
+            {
+              "duration": "sixMonthly",
+              "id": "d8a7dd53-e9fb-4c5f-a2dc-c9fa5db24e64",
+              "price": 0
+            },
+            {
+              "duration": "yearly",
+              "id": "cd9752db-ce62-4683-a240-55a80c5b7ec4",
+              "price": 0
+            }
+          ],
+          "availability": "in_stock"
+        },
+        {
+          "id": "compounded-tirzepatide-oral",
+          "name": "Compounded Tirzepatide Oral Capsules",
+          "quizId": "weight-loss",
+          "selectionName": "Compounded Tirzepatide Oral Capsules",
+          "intro": "Faster results. Dual-action support.",
+          "type": "tablets",
+          "images": {
+            "mainImg": "/assets/images/products/tirzepatide-odt.png"
+          },
+          "tag": "Fastest Results",
+          "description": "Tirzepatide is a dual-action GLP-1 and GIP therapy designed for individuals who benefit from a more advanced formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "824bb2ae-b0a4-4ca4-b205-65e5338f396c",
+              "price": 349,
+              "refillPrice": 399
+            },
+            {
+              "duration": "threeMonthly",
+              "id": "55949210-9527-4260-ba6b-d38bf71d8e8d",
+              "price": 0
+            },
+            {
+              "duration": "sixMonthly",
+              "id": "4d0d8bc8-f920-4ddf-9aa4-f5e23c7c465b",
+              "price": 0
+            },
+            {
+              "duration": "yearly",
+              "id": "361777f2-2657-4e02-a12d-01caa8f29370",
+              "price": 0
+            }
+          ],
+          "availability": "in_stock"
+        }
+      ]
+    },
+    {
+      "id": "hrt",
+      "name": "HRT",
+      "images": {
+        "mainImg": "/assets/images/products/weight-loss/cover.png"
+      },
+      "availability": "in_stock",
+      "products": [
+        {
+          "id": "estradiol-tablets",
+          "name": "Estradiol Tablets",
+          "quizId": "womens-hrt",
+          "selectionName": "Estradiol Tablets",
+          "intro": "Proven, effective, more affordable.",
+          "type": "tablets",
+          "images": {
+            "mainImg": "/assets/images/products/estradiol-clear-olive-capsule.png"
+          },
+          "tag": "Most Affordable",
+          "description": "THE GLP-1 Injections are customized GLP-1 therapy designed for individuals who benefit from a formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "0de12f0e-e4f7-49d4-91f9-87e9d408799d",
+              "price": 199
+            }
+          ],
+          "availability": "in_stock"
+        },
+        {
+          "id": "estradiol-patch",
+          "name": "Estradiol Patch",
+          "selectionName": "Estradiol Patch",
+          "quizId": "womens-hrt",
+          "intro": "Faster results. Dual-action support.",
+          "type": "patch",
+          "images": {
+            "mainImg": "/assets/images/products/estradiol-patch.png"
+          },
+          "tag": "Fastest Results",
+          "description": "Tirzepatide is a dual-action GLP-1 and GIP therapy designed for individuals who benefit from a more advanced formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "bb4f2aef-57b2-4e3e-bc6a-b733c7575884",
+              "price": 269
+            }
+          ],
+          "availability": "in_stock"
+        },
+        {
+          "id": "estradiol-cream",
+          "name": "Estradiol Cream",
+          "selectionName": "Estradiol Cream",
+          "quizId": "womens-hrt",
+          "intro": "Proven, effective, more affordable.",
+          "type": "cream",
+          "images": {
+            "mainImg": "/assets/images/products/estradiol-cream.png"
+          },
+          "tag": "Most Affordable",
+          "description": "THE GLP-1 Injections are customized GLP-1 therapy designed for individuals who benefit from a formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "ec5e778e-1e5b-4719-a855-5efb8ba5080f",
+              "price": 269,
+              "refillPrice": 299
+            }
+          ],
+          "availability": "in_stock"
+        },
+        {
+          "id": "estriol-vaginal-cream",
+          "name": "Estriol Vaginal Cream",
+          "selectionName": "Estriol Vaginal Cream",
+          "quizId": "womens-hrt",
+          "intro": "Faster results. Dual-action support.",
+          "type": "cream",
+          "images": {
+            "mainImg": "/assets/images/products/estriol-vaginal-cream.png"
+          },
+          "tag": "Fastest Results",
+          "description": "Tirzepatide is a dual-action GLP-1 and GIP therapy designed for individuals who benefit from a more advanced formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "06a317f9-0814-4425-9b33-6369f072ab89",
+              "price": 249
+            }
+          ],
+          "availability": "in_stock"
+        }
+      ]
+    },
+    {
+      "id": "trt",
+      "name": "TRT",
+      "images": {
+        "mainImg": "/assets/images/products/weight-loss/cover.png"
+      },
+      "availability": "in_stock",
+      "products": [
+        {
+          "id": "testosterone-cypionate-mct-oil-injection",
+          "name": "Testosterone Cypionate (MCT Oil) Injection",
+          "selectionName": "Testosterone Cypionate (MCT Oil) Injection",
+          "quizId": "mens-hrt",
+          "intro": "Proven, effective, more affordable.",
+          "type": "drops",
+          "images": {
+            "mainImg": "/assets/images/products/testosterone-cypionate.png"
+          },
+          "tag": "Most Affordable",
+          "description": "THE GLP-1 Injections are customized GLP-1 therapy designed for individuals who benefit from a formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "516edf81-8e1c-4a09-9025-758bcb556fef",
+              "price": 179
+            },
+            {
+              "duration": "yearly",
+              "id": "5538f29a-4c57-4d62-a7e7-3b8e5b01b3c8",
+              "price": 1500
+            }
+          ],
+          "availability": "in_stock"
+        },
+        {
+          "id": "enclomiphene-citrate-dhea-boron-pregenolone-odt",
+          "name": "Enclomiphene Citrate / DHEA / Boron / Pregnenolone ODT",
+          "selectionName": "Enclomiphene Citrate / DHEA / Boron / Pregnenolone ODT",
+          "quizId": "mens-hrt",
+          "intro": "Proven, effective, more affordable.",
+          "type": "tablets",
+          "images": {
+            "mainImg": "/assets/images/products/enclomiphene-citrate.png"
+          },
+          "tag": "Most Affordable",
+          "description": "THE GLP-1 Injections are customized GLP-1 therapy designed for individuals who benefit from a formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "04bedd32-ef96-48e3-af81-3011552598b3",
+              "price": 199
+            },
+            {
+              "duration": "threeMonthly",
+              "id": "04bedd32-ef96-48e3-af81-3011552598b3",
+              "price": 597
+            },
+            {
+              "duration": "sixMonthly",
+              "id": "dbfc4490-124e-4fcf-84ed-94eb8a3dde71",
+              "price": 899
+            },
+            {
+              "duration": "yearly",
+              "id": "e4674a16-f32c-42b0-b8ec-02f09bab6794",
+              "price": 1669
+            }
+          ],
+          "availability": "in_stock"
+        },
+        {
+          "id": "kyzatrex",
+          "name": "KYZATREX®",
+          "selectionName": "KYZATREX®",
+          "quizId": "mens-hrt",
+          "intro": "Faster results. Dual-action support.",
+          "type": "drops",
+          "images": {
+            "mainImg": "/assets/images/products/kyzatrex.png"
+          },
+          "tag": "Fastest Results",
+          "description": "Tirzepatide is a dual-action GLP-1 and GIP therapy designed for individuals who benefit from a more advanced formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "cf2c59db-338b-47ac-86b2-1d82553f2863",
+              "price": 219
+            },
+            {
+              "duration": "twoMonthly",
+              "id": "9252d1ed-5baa-4876-9b02-b3897243aa54",
+              "price": 349
+            },
+            {
+              "duration": "fourMonthly",
+              "id": "1a86c593-761b-4dc8-bfb9-6007e97d9624",
+              "price": 499
+            }
+          ],
+          "availability": "in_stock"
+        },
+        {
+          "id": "gonadorelin-troche",
+          "name": "Gonadorelin Troche",
+          "quizId": "mens-hrt",
+          "selectionName": "Gonadorelin Troche",
+          "intro": "Proven, effective, more affordable.",
+          "type": "tablets",
+          "images": {
+            "mainImg": "/assets/images/products/gonadorelin-troche.png"
+          },
+          "tag": "Most Affordable",
+          "description": "THE GLP-1 Injections are customized GLP-1 therapy designed for individuals who benefit from a formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "5a8c8fc8-a294-4e9e-b346-c0d81e523041",
+              "price": 35
+            },
+            {
+              "duration": "threeMonthly",
+              "id": "e2612d0c-a103-4652-80a8-b8b251f9ca65",
+              "price": 105
+            },
+            {
+              "duration": "sixMonthly",
+              "id": "86c6cbc0-00bf-4039-81f5-c3ac4124a6a0",
+              "price": 210
+            },
+            {
+              "duration": "yearly",
+              "id": "3a1a29f0-6766-48da-81b8-af781026a2c0",
+              "price": 420
+            }
+          ],
+          "availability": "in_stock"
+        }
+      ]
+    },
+    {
+      "id": "wellness",
+      "name": "Wellness",
+      "images": {
+        "mainImg": "/assets/images/products/weight-loss/cover.png"
+      },
+      "availability": "in_stock",
+      "products": [
+        {
+          "id": "sermorelin-injection",
+          "name": "Sermorelin Injection",
+          "quizId": "sermorelin",
+          "selectionName": "Sermorelin Injection",
+          "intro": "Proven, effective, more affordable.",
+          "type": "drops",
+          "images": {
+            "mainImg": "/assets/images/products/sermorelin-injection.png"
+          },
+          "tag": "Most Affordable",
+          "description": "THE GLP-1 Injections are customized GLP-1 therapy designed for individuals who benefit from a formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "9e2db336-a3c1-4559-84de-e623a8791c8b",
+              "price": 249,
+              "refillPrice": 299
+            },
+            {
+              "duration": "threeMonthly",
+              "id": "732a5768-31d5-4ffd-bb11-c601463f2d00",
+              "price": 597
+            },
+            {
+              "duration": "sixMonthly",
+              "id": "1c0c2d1e-ac8b-483c-86cd-044ba9a91d53",
+              "price": 997
+            },
+            {
+              "duration": "yearly",
+              "id": "e3819a02-3108-4c5a-90fc-4d9746ae190c",
+              "price": 1897
+            }
+          ],
+          "availability": "in_stock"
+        },
+        {
+          "id": "sermorelin-odt",
+          "name": "Sermorelin ODT",
+          "quizId": "sermorelin",
+          "selectionName": "Sermorelin ODT",
+          "intro": "Faster results. Dual-action support.",
+          "type": "injections",
+          "images": {
+            "mainImg": "/assets/images/products/sermorelin-odt.png"
+          },
+          "tag": "Fastest Results",
+          "description": "Tirzepatide is a dual-action GLP-1 and GIP therapy designed for individuals who benefit from a more advanced formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "d1e4fe0b-18d5-444f-956c-831a2b2959df",
+              "price": 249,
+              "refillPrice": 399
+            },
+            {
+              "duration": "threeMonthly",
+              "id": "05e1ad1c-19b3-49e8-8ac7-9b46c33d0941",
+              "price": 597
+            },
+            {
+              "duration": "sixMonthly",
+              "id": "f8c51645-a584-4a0c-9b58-efe8200d5a2d",
+              "price": 997
+            },
+            {
+              "duration": "yearly",
+              "id": "54c74959-c263-40ef-a266-0a170505a8d4",
+              "price": 1897
+            }
+          ],
+          "availability": "in_stock"
+        },
+        {
+          "id": "nad-injection",
+          "name": "NAD+ Injection",
+          "quizId": "nad-plus",
+          "selectionName": "NAD+ Injection",
+          "intro": "Proven, effective, more affordable.",
+          "type": "drops",
+          "images": {
+            "mainImg": "/assets/images/products/nad-injection.png"
+          },
+          "tag": "Most Affordable",
+          "description": "THE GLP-1 Injections are customized GLP-1 therapy designed for individuals who benefit from a formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "75dfa03b-e2da-4a06-a5da-0a97ff445269",
+              "price": 249,
+              "refillPrice": 299
+            },
+            {
+              "duration": "threeMonthly",
+              "id": "9868348d-fe7a-404c-97a3-90e1ec50380f",
+              "price": 597
+            },
+            {
+              "duration": "sixMonthly",
+              "id": "70f754fb-c98b-4e84-9cee-bc94ca60c8c3",
+              "price": 997
+            },
+            {
+              "duration": "yearly",
+              "id": "73c0118d-1746-4e6b-8371-6803a7671283",
+              "price": 1897
+            }
+          ],
+          "availability": "in_stock"
+        },
+        {
+          "id": "nad-nasal-spray",
+          "name": "NAD+ Nasal Spray",
+          "quizId": "nad-plus",
+          "selectionName": "NAD+ Nasal Spray",
+          "intro": "Proven, effective, more affordable.",
+          "type": "spray",
+          "images": {
+            "mainImg": "/assets/images/products/nad-nasal-spray.png"
+          },
+          "tag": "Most Affordable",
+          "description": "THE GLP-1 Injections are customized GLP-1 therapy designed for individuals who benefit from a formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "5888e063-e640-4b51-9de3-a19d368dfa5e",
+              "price": 249,
+              "refillPrice": 299
+            },
+            {
+              "duration": "threeMonthly",
+              "id": "ff9774a6-6a39-4738-8bdb-cfeb345eb772",
+              "price": 597
+            },
+            {
+              "duration": "sixMonthly",
+              "id": "25a7e073-b6fa-49c1-a780-11580ade83da",
+              "price": 997
+            },
+            {
+              "duration": "yearly",
+              "id": "c16d9806-b4a3-489d-adbf-e4d9fa131510",
+              "price": 1897
+            }
+          ],
+          "availability": "in_stock"
+        },
+        {
+          "id": "nad-flex-dose-tablet",
+          "name": "NAD+ Flex Dose Tablet",
+          "quizId": "nad-plus",
+          "selectionName": "NAD+ Flex Dose Tablet",
+          "intro": "Proven, effective, more affordable.",
+          "type": "tablets",
+          "images": {
+            "mainImg": "/assets/images/products/nad-flex-dose-tablet.png"
+          },
+          "tag": "Most Affordable",
+          "description": "THE GLP-1 Injections are customized GLP-1 therapy designed for individuals who benefit from a formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "f98fb8dd-6f9e-4853-85c5-799da582e4ea",
+              "price": 249,
+              "refillPrice": 299
+            },
+            {
+              "duration": "threeMonthly",
+              "id": "76ac4020-3a1d-44fc-b867-843dfdfc8e88",
+              "price": 597
+            },
+            {
+              "duration": "sixMonthly",
+              "id": "bf04b023-47f3-4cec-8fb0-f516465d2e16",
+              "price": 997
+            },
+            {
+              "duration": "yearly",
+              "id": "a1176e3c-ea59-44ee-8752-8b0545640f1d",
+              "price": 1897
+            }
+          ],
+          "availability": "in_stock"
+        },
+        {
+          "id": "methylene-blue",
+          "name": "Methylene Blue",
+          "quizId": "methylene-blue",
+          "selectionName": "Methylene Blue",
+          "intro": "Proven, effective, more affordable.",
+          "type": "cream",
+          "images": {
+            "mainImg": "/assets/images/products/methylene-blue.png"
+          },
+          "tag": "Most Affordable",
+          "description": "THE GLP-1 Injections are customized GLP-1 therapy designed for individuals who benefit from a formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "144d41c4-1bb0-412c-b2f4-0b11f3862e4d",
+              "price": 99
+            }
+          ],
+          "availability": "in_stock"
+        },
+        {
+          "id": "glutathione-injections",
+          "name": "Glutathione Injections",
+          "quizId": "glutathione",
+          "selectionName": "Glutathione Injections",
+          "intro": "Proven, effective, more affordable.",
+          "type": "drops",
+          "images": {
+            "mainImg": "/assets/images/products/glutathione-injections.png"
+          },
+          "tag": "Most Affordable",
+          "description": "THE GLP-1 Injections are customized GLP-1 therapy designed for individuals who benefit from a formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "9283a7c5-6ace-4584-925e-fd60ecbf4fea",
+              "price": 109
+            }
+          ],
+          "availability": "in_stock"
+        },
+        {
+          "id": "mic-b12-injection",
+          "name": "MIC B12 Injection",
+          "quizId": "vitamin-b12",
+          "selectionName": "MIC B12 Injection",
+          "intro": "Proven, effective, more affordable.",
+          "type": "drops",
+          "images": {
+            "mainImg": "/assets/images/products/mic-b12-injection.png"
+          },
+          "tag": "Most Affordable",
+          "description": "THE GLP-1 Injections are customized GLP-1 therapy designed for individuals who benefit from a formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "149aeb06-0186-4903-acfd-8eb3a7ea36c3",
+              "price": 149
+            }
+          ],
+          "availability": "in_stock"
+        }
+      ]
+    },
+    {
+      "id": "sexual-health",
+      "name": "Sexual Health",
+      "images": {
+        "mainImg": "/assets/images/products/weight-loss/cover.png"
+      },
+      "availability": "in_stock",
+      "products": [
+        {
+          "id": "sildenafil-pycnogenol-6-doses",
+          "name": "Sildenafil/Pycnogenol (6 doses)",
+          "selectionName": "Sildenafil/Pycnogenol (6 doses)",
+          "quizId": "sexual-health",
+          "intro": "Proven, effective, more affordable.",
+          "type": "drops",
+          "images": {
+            "mainImg": "/assets/images/products/sildenafil-pycnogenol.png"
+          },
+          "tag": "Most Affordable",
+          "description": "THE GLP-1 Injections are customized GLP-1 therapy designed for individuals who benefit from a formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "40cc35d8-1817-4516-a73d-43aecbe9037c",
+              "price": 60
+            }
+          ],
+          "availability": "in_stock"
+        },
+        {
+          "id": "tadalafil-pycnogenol-6-doses",
+          "name": "Tadalafil/Pycnogenol (6 doses)",
+          "quizId": "sexual-health",
+          "selectionName": "Tadalafil/Pycnogenol (6 doses)",
+          "intro": "Faster results. Dual-action support.",
+          "type": "drops",
+          "images": {
+            "mainImg": "/assets/images/products/tadalafil-pycnogenol.png"
+          },
+          "tag": "Fastest Results",
+          "description": "Tirzepatide is a dual-action GLP-1 and GIP therapy designed for individuals who benefit from a more advanced formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "d7c6d7b5-65c0-4268-be46-204ee39687c5",
+              "price": 60
+            }
+          ],
+          "availability": "in_stock"
+        },
+        {
+          "id": "tadalafil-sildenafil-6-doses",
+          "name": "Tadalafil/Sildenafil (6 Doses)",
+          "quizId": "sexual-health",
+          "selectionName": "Tadalafil/Sildenafil (6 Doses)",
+          "intro": "Proven, effective, more affordable.",
+          "type": "tablets",
+          "images": {
+            "mainImg": "/assets/images/products/tadalafil-sildenafil.png"
+          },
+          "tag": "Most Affordable",
+          "description": "THE GLP-1 Injections are customized GLP-1 therapy designed for individuals who benefit from a formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "088b8982-26dc-47c7-afa1-505fe29e8c32",
+              "price": 96
+            }
+          ],
+          "availability": "in_stock"
+        },
+        {
+          "id": "tadalafil",
+          "name": "Tadalafil",
+          "selectionName": "Tadalafil",
+          "quizId": "sexual-health",
+          "intro": "Proven, effective, more affordable.",
+          "type": "tablets",
+          "images": {
+            "mainImg": "/assets/images/products/tadalafil.png"
+          },
+          "tag": "Most Affordable",
+          "description": "THE GLP-1 Injections are customized GLP-1 therapy designed for individuals who benefit from a formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "99fb6862-4b08-41a0-abec-d510e33b17d4",
+              "price": 115
+            }
+          ],
+          "availability": "in_stock"
+        },
+        {
+          "id": "vardenafil-10-doses",
+          "quizId": "sexual-health",
+          "name": "Vardenafil (10 doses)",
+          "selectionName": "Vardenafil (10 doses)",
+          "intro": "Proven, effective, more affordable.",
+          "type": "tablets",
+          "images": {
+            "mainImg": "/assets/images/products/vardenafil.png"
+          },
+          "tag": "Most Affordable",
+          "description": "THE GLP-1 Injections are customized GLP-1 therapy designed for individuals who benefit from a formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "784fedd4-d042-4470-9908-a0e65697d81c",
+              "price": 149
+            }
+          ],
+          "availability": "in_stock"
+        },
+        {
+          "id": "bremelanotide-injection",
+          "name": "Bremelanotide (injection)",
+          "quizId": "sexual-health",
+          "selectionName": "Bremelanotide (injection)",
+          "intro": "Proven, effective, more affordable.",
+          "type": "injections",
+          "images": {
+            "mainImg": "/assets/images/products/bremelanotide-injection.png"
+          },
+          "tag": "Most Affordable",
+          "description": "THE GLP-1 Injections are customized GLP-1 therapy designed for individuals who benefit from a formulation aligned with their specific health goals.",
+          "variations": [
+            {
+              "duration": "monthly",
+              "id": "9c71774a-cb77-4978-a5c4-57dd2f638d88",
+              "price": 199
+            }
+          ],
+          "availability": "in_stock"
+        }
+      ]
+    }
+  ]
+}
