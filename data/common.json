@@ -1,0 +1,28 @@
+{
+  "brand": {
+    "orgName": "Some Client",
+    "colors": {
+      "backgroundColor": "#F6F6F6",
+      "bodyColor": "#000000",
+      "accentColor1": "#112641",
+      "accentColor2": "#112641",
+      "backgroundColor2": "#F6F6F6"
+    },
+    "fontStacks": {
+      "headingFont": ["Times New Roman", "sans-serif"],
+      "bodyFont": ["Inter", "sans-serif"],
+      "headingAlt": ["Times New Roman Italic", "sans-serif"]
+    }
+  },
+  "strings": {
+    "siteTitle": "Some Client - Discover a better you with GLP-1s.",
+    "pageDescription": "Some Client is made personalized for you and your weight loss journey."
+  },
+  "announcement": {
+    "enabled": false,
+    "text": "Limited time offer: 20% off your first consultation!",
+    "link": "/",
+    "backgroundColor": "#000000",
+    "textColor": "#ffffff"
+  }
+}
