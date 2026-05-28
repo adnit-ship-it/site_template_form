@@ -1,0 +1,22 @@
+name: Guard Main Branch
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  prevent-store-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check source branch prefix
+        env:
+          SOURCE_BRANCH: ${{ github.head_ref }}
+        run: |
+          echo "Evaluating source branch: $SOURCE_BRANCH"
+          if [[ "$SOURCE_BRANCH" == store-* ]]; then
+            echo "::error::Merging 'store-*' branches into main is strictly prohibited."
+            exit 1
+          else
+            echo "Branch check passed."
+          fi

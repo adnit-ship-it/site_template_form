@@ -1,0 +1,21 @@
+{
+  "brand": {
+    "orgName": "Some Client",
+    "colors": {
+      "backgroundColor": "#F6F6F6",
+      "bodyColor": "#000000",
+      "accentColor1": "#112641",
+      "accentColor2": "#112641",
+      "backgroundColor2": "#F6F6F6"
+    },
+    "fonts": {
+      "_comment": "Font stacks are derived at build time from files in assets/fonts/ — see data/fonts.ts. Drop bodyFont.woff2 (required) and optionally headingFont.woff2 into that folder; the dashboard handles the rename.",
+      "bodyFile": "bodyFont.woff2",
+      "headingFile": "headingFont.woff2"
+    }
+  },
+  "strings": {
+    "siteTitle": "Some Client - Discover a better you with GLP-1s.",
+    "pageDescription": "Some Client is made personalized for you and your weight loss journey."
+  }
+}

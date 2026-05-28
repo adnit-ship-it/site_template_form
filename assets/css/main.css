@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Prevent horizontal overflow globally */
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Your custom CSS can go here */
+
+/*
+ * Global typography defaults (brand spec)
+ * - Body (p):       16px / Regular (400) / BodyFont
+ * - Header (h1):    45px / Medium  (500) / HeadingFont
+ * - Subhead (h2/h3): 24px / Medium  (500) / HeadingFont
+ * - Button:         16px / Medium  (500) / BodyFont
+ *
+ * Font families resolve via CSS variables injected during SSR by
+ * `plugins/00.brand-tokens.server.ts`, which sources stacks from
+ * `data/fonts.server.ts` (file-system detection).
+ * If only `bodyFont.woff2` is uploaded, `--headingFont` collapses to the body
+ * stack, so headings still render in the single brand font.
+ *
+ * Applied in @layer base so Tailwind utility classes still win when used
+ * intentionally (e.g. text-2xl, font-semibold) without us having to refactor
+ * every component.
+ */
+@layer base {
+  body {
+    font-family: var(--bodyFont);
+  }
+
+  p {
+    font-family: var(--bodyFont);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  h1 {
+    font-family: var(--headingFont);
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 1.15;
+  }
+
+  h2,
+  h3 {
+    font-family: var(--headingFont);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.25;
+  }
+
+  button {
+    font-family: var(--bodyFont);
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+/* Apply font-medium to all text-sm elements */
+@layer utilities {
+  .text-sm {
+    @apply font-medium;
+  }
+
+  .text-xs {
+    @apply font-medium;
+  }
+}
+
+img,
+video {
+  justify-self: center;
+}
+
+/*
+ * Brand color CSS variables are injected by `plugins/00.site-bootstrap.ts`
+ * from the resolved runtime branding payload (`site_branding.colors` in
+ * Supabase, with fallback handled in the runtime-config layer). Keeping hard
+ * coded defaults here causes normal cascade ordering to override injected
+ * values, so this file intentionally does not define color tokens.
+ */
+
+.section-heading {
+  @apply text-[24px]/[32px] lg:text-[32px]/[40px];
+}
+
+/*
+ * Brand fonts. Files live at:
+ *   - assets/fonts/bodyFont.woff2     (required)
+ *   - assets/fonts/headingFont.woff2  (optional)
+ *
+ * If `headingFont.woff2` is absent, the build-time detector in
+ * `data/fonts.server.ts` collapses `--headingFont` to the body stack so
+ * nothing references the HeadingFont family — and browsers only fetch
+ * @font-face when actually used, so the declaration below stays inert with
+ * no 404.
+ */
+@font-face {
+  font-family: "BodyFont";
+  src: url("../fonts/bodyFont.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-stretch: 75% 100%;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HeadingFont";
+  src: url("../fonts/headingFont.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-stretch: 75% 100%;
+  font-display: swap;
+}

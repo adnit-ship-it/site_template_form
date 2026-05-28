@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Embed Test Harness</title>
+    <!--
+      Static test page served from /embed-test.html by Nuxt. Loads the app in an
+      iframe so we can manually verify the embed works end-to-end.
+
+      IMPORTANT: This file is same-origin with the app, so framing works here
+      even without any CSP configured. To actually exercise the frame-ancestors
+      allowlist, serve this HTML from a DIFFERENT origin (e.g. VSCode Live
+      Server on http://127.0.0.1:5500) and add that origin to
+      NUXT_PUBLIC_EMBED_ALLOWED_ORIGINS. See docs/EMBED.md.
+    -->
+    <style>
+      :root {
+        color-scheme: light;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        background: #f5f6f8;
+        color: #0f172a;
+      }
+      .wrap {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 24px;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 16px;
+      }
+      header h1 {
+        font-size: 18px;
+        margin: 0;
+      }
+      header .tag {
+        font-size: 11px;
+        background: #0f172a;
+        color: white;
+        padding: 2px 8px;
+        border-radius: 999px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+      .controls {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 12px;
+        font-size: 14px;
+      }
+      .controls label {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: white;
+        padding: 6px 10px;
+        border-radius: 8px;
+        border: 1px solid #e2e8f0;
+      }
+      .controls input {
+        border: none;
+        outline: none;
+        font: inherit;
+        min-width: 280px;
+      }
+      .controls button {
+        font: inherit;
+        padding: 6px 14px;
+        background: #0f172a;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+      .frame {
+        width: 100%;
+        height: calc(100vh - 140px);
+        min-height: 600px;
+        border: 1px solid #cbd5e1;
+        border-radius: 12px;
+        background: white;
+      }
+      .hint {
+        font-size: 12px;
+        color: #64748b;
+        margin-top: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>Embed test harness</h1>
+        <span class="tag">dev only</span>
+      </header>
+
+      <div class="controls">
+        <label>
+          src
+          <input id="src" type="text" value="/?categoryId=weight-loss" />
+        </label>
+        <button id="reload">reload iframe</button>
+      </div>
+
+      <iframe
+        id="app"
+        class="frame"
+        src="/?categoryId=weight-loss"
+        title="Embedded app"
+        allow="payment *; clipboard-write"
+      ></iframe>
+
+      <p class="hint">
+        Same-origin by default. To exercise the frame-ancestors policy, serve this file from a different origin and add that origin to
+        <code>NUXT_PUBLIC_EMBED_ALLOWED_ORIGINS</code>. See <code>docs/EMBED.md</code>.
+      </p>
+    </div>
+
+    <script>
+      const srcInput = document.getElementById("src");
+      const frame = document.getElementById("app");
+      document.getElementById("reload").addEventListener("click", () => {
+        frame.src = srcInput.value;
+      });
+      srcInput.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") frame.src = srcInput.value;
+      });
+    </script>
+  </body>
+</html>
